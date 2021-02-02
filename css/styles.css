@@ -115,3 +115,11 @@ con un elemento, pero no necesariamente da click sobre este.*/
   }
 
 
+/*----------------------------------------Estilo de info-----------------------------------------------------------*/
+
+.info-columna{
+    background: #d3d3d3;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 30px;
+}
