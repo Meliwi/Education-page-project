@@ -1,7 +1,8 @@
 /*Importando las fuentes*/
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 /*Box sizing le dice al navegador que tome en cuenta el borde 
 para cualquier valor de un elemento, es decir que incluya este borde*/
 *{
@@ -12,8 +13,12 @@ img{
     display: block;
     max-width: 100%;
 }
+h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+}
 
-h1,h2,h3,h4,h5,h6 {
+h1,h3,h4,h5,h6 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     letter-spacing: 1.5px;
 }
@@ -43,7 +48,7 @@ body {
     width: 40px;
     height: 40px;
     font-size: 30px;
-    background: #9abec6;
+    background: #959794;
     text-align: center;
     line-height: 45px;
     border-radius: 5px;
@@ -69,7 +74,7 @@ body {
 .menu-link{
     display: block;
     padding: 20px;
-    background:#9abec6;
+    background:#959794;
     text-decoration: none;
     color:#fff
 }
@@ -78,7 +83,7 @@ body {
 con un elemento, pero no necesariamente da click sobre este.*/
 .menu-link:hover{
     background: white;
-    color: #9abec6;
+    color: #959794;
 }
 
 .show{
@@ -88,7 +93,7 @@ con un elemento, pero no necesariamente da click sobre este.*/
 /*Para que siempre halla un elemento diferente*/
 .select{
     background: white;
-    color: #9abec6;
+    color: #959794;
 }
 
 /*--------------------------------------Estilos del banner--------------------------------------------*/
@@ -118,8 +123,49 @@ con un elemento, pero no necesariamente da click sobre este.*/
 /*----------------------------------------Estilo de info-----------------------------------------------------------*/
 
 .info-columna{
-    background: #d3d3d3;
+    background: #b5b3b3;
     color: white;
-    padding: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 8px 0px 37px 0px #959794;
+    -moz-box-shadow: 8px 0px 37px 0px #959794;
+    box-shadow: 8px 0px 47px 0px #959794;
+    border-radius: 7px;
+    flex-wrap: wrap;
+}
+
+.info-titulo{
+    font-size: 25px;
+    margin-top: 10px;
+    border-bottom: white 3px solid;
+    width: 50%;
+}
+
+
+/*-------------------------------------------Estilos de cursos ----------------------------------------------------------*/
+
+.section-titulo{
+    text-align: center;
+    font-size: 30px;
+    color: #959794;
+}
+
+.cursos-columna{
+    position: relative;
     margin-bottom: 30px;
+}
+
+.cursos-descripcion{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(0, 0,0,0.6);
+    width: 60%;
+    height: 100%;
+    padding: 5px;
+}
+.cursos-titulo{
+    font-size: 25px;
+    margin: 5px 0;
 }
