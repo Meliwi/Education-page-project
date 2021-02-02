@@ -122,15 +122,17 @@ con un elemento, pero no necesariamente da click sobre este.*/
 
 /*----------------------------------------Estilo de info-----------------------------------------------------------*/
 
+
+
 .info-columna{
-    background: #b5b3b3;
+    border: 1px solid #727272;
+    background: #727272;
     color: white;
     padding: 10px;
     margin-bottom: 20px;
-    -webkit-box-shadow: 8px 0px 37px 0px #959794;
-    -moz-box-shadow: 8px 0px 37px 0px #959794;
-    box-shadow: 8px 0px 47px 0px #959794;
-    border-radius: 7px;
+    -webkit-box-shadow: 8px 0px 37px 0px #333;
+    -moz-box-shadow: 8px 0px 37px 0px #333;
+    box-shadow: 8px 0px 47px 0px rgb(116, 116, 116);
     flex-wrap: wrap;
 }
 
@@ -168,4 +170,28 @@ con un elemento, pero no necesariamente da click sobre este.*/
 .cursos-titulo{
     font-size: 25px;
     margin: 5px 0;
+}
+
+/*---------------------------------------Estilos del footer------------------------------------------------------*/
+
+.footer{
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/*De esta manera se estan seleccionando todas las clases que empiecen con icon- y esten
+dentro de footer*/
+.footer .social [class^="icon-"]{
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
 }
