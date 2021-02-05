@@ -28,6 +28,9 @@ body {
     margin: 0;
 }
 
+/*Scroll behavior para la página */
+html {
+    scroll-behavior: smooth; } 
 /*------------------------------------Estilos para el header----------------------------------------------*/
 .header{
     height: 60px;
@@ -48,7 +51,7 @@ body {
     width: 40px;
     height: 40px;
     font-size: 30px;
-    background: #959794;
+    background: #84898c;
     text-align: center;
     line-height: 45px;
     border-radius: 5px;
@@ -74,7 +77,7 @@ body {
 .menu-link{
     display: block;
     padding: 20px;
-    background:#959794;
+    background:#84898c;
     text-decoration: none;
     color:#fff
 }
@@ -83,7 +86,8 @@ body {
 con un elemento, pero no necesariamente da click sobre este.*/
 .menu-link:hover{
     background: white;
-    color: #959794;
+    color: #84898c;
+    
 }
 
 .show{
@@ -93,7 +97,7 @@ con un elemento, pero no necesariamente da click sobre este.*/
 /*Para que siempre halla un elemento diferente*/
 .select{
     background: white;
-    color: #959794;
+    color: #84898c;
 }
 
 /*--------------------------------------Estilos del banner--------------------------------------------*/
@@ -125,8 +129,9 @@ con un elemento, pero no necesariamente da click sobre este.*/
 
 
 .info-columna{
-    border: 1px solid #727272;
-    background: #727272;
+    border: 1px solid #6d7a7f;
+    background: #6d7a7f ;
+    /*background-color: rgb(122, 121, 121) transparent;*/
     color: white;
     padding: 10px;
     margin-bottom: 20px;
@@ -134,6 +139,7 @@ con un elemento, pero no necesariamente da click sobre este.*/
     -moz-box-shadow: 8px 0px 37px 0px #333;
     box-shadow: 8px 0px 47px 0px rgb(116, 116, 116);
     flex-wrap: wrap;
+
 }
 
 .info-titulo{
@@ -142,14 +148,40 @@ con un elemento, pero no necesariamente da click sobre este.*/
     border-bottom: white 3px solid;
     width: 50%;
 }
+/*------------------------------------------ Estilos de About------------------------------------------------------*/
+
+.image-profile{
+    float: right;
+    width: 30%;
+}
+
+.opinion-txt{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image-profile1{
+    float: left;
+    width: 30%;
+}
 
 
+.opinion-txt1{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4.name-title{
+    text-align: center;
+}
 /*-------------------------------------------Estilos de cursos ----------------------------------------------------------*/
 
 .section-titulo{
     text-align: center;
     font-size: 30px;
-    color: #959794;
+    color: #748380;
 }
 
 .cursos-columna{
@@ -163,7 +195,7 @@ con un elemento, pero no necesariamente da click sobre este.*/
     left: 0;
     color: #fff;
     background: rgba(0, 0,0,0.6);
-    width: 60%;
+    width: 75%;
     height: 100%;
     padding: 5px;
 }

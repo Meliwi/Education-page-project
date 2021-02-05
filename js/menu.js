@@ -3,6 +3,8 @@ var btnMenu = document.getElementById('btn-menu');
 var nav = document.getElementById('nav');
 
 //Añadimos un evento al boton menú
-btnMenu.addEventListener('click', function(){
+  btnMenu.addEventListener('click', function(){
   nav.classList.toggle('show');
 });
+
+
