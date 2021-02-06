@@ -150,31 +150,41 @@ con un elemento, pero no necesariamente da click sobre este.*/
 }
 /*------------------------------------------ Estilos de About------------------------------------------------------*/
 
+
 .image-profile{
     float: right;
     width: 30%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .opinion-txt{
     margin-left: 10px;
-    margin-top: 10px;
     margin-bottom: 10px;
+    float: left;
+    text-align: left;
 }
 
 .image-profile1{
     float: left;
     width: 30%;
+    margin-right: 10px;
 }
 
-
 .opinion-txt1{
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-h4.name-title{
+.name-title2{
     text-align: center;
+    color: #6d7a7f;
+}
+
+.name-title{
+    color: #6d7a7f;
 }
 /*-------------------------------------------Estilos de cursos ----------------------------------------------------------*/
 
