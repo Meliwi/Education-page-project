@@ -156,7 +156,9 @@ con un elemento, pero no necesariamente da click sobre este.*/
     width: 30%;
     margin-right: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
     margin-top: 10px;
+    background-color: #6d7a7f;
 }
 
 .opinion-txt{
@@ -170,6 +172,7 @@ con un elemento, pero no necesariamente da click sobre este.*/
     float: left;
     width: 30%;
     margin-right: 10px;
+    background-color:#6d7a7f;
 }
 
 .opinion-txt1{
