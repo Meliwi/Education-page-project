@@ -31,6 +31,11 @@ body {
 /*Scroll behavior para la página */
 html {
     scroll-behavior: smooth; } 
+
+.contenedor{
+    margin: auto;
+    width: 99%;
+}
 /*------------------------------------Estilos para el header----------------------------------------------*/
 .header{
     height: 60px;
@@ -179,7 +184,7 @@ con un elemento, pero no necesariamente da click sobre este.*/
 
 .image-profile{
     float: right;
-    width: 30%;
+    width: 25%;
     margin-right: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -196,14 +201,14 @@ con un elemento, pero no necesariamente da click sobre este.*/
 
 .image-profile1{
     float: left;
-    width: 30%;
+    width: 25%;
     margin-right: 10px;
     background-color:#6d7a7f;
 }
 
 .image-profile2{
     float: right;
-    width: 30%;
+    width: 25%;
     margin-right: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -211,10 +216,18 @@ con un elemento, pero no necesariamente da click sobre este.*/
     background-color: #6d7a7f;
 }
 
+.image-profile3{
+    float: left;
+    width: 25%;
+    margin-right: 10px;
+    background-color:#6d7a7f;
+}
+
 .opinion-txt1{
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    float: right;
 }
 
 .name-title2{
@@ -341,6 +354,7 @@ dispositivo con medidas especificas*/
     }
     .about .contenedor{
         margin-top: -32px;
+        align-content: center;
         
     }
 
@@ -361,6 +375,13 @@ dispositivo con medidas especificas*/
     .image-profile2{
         width: 20%;
         margin-right: 0;
+    }
+
+    .image-profile3{
+        width: 20%;
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: 0;
     }
     .opinion-txt{
         margin-top: -10px;
@@ -393,6 +414,8 @@ dispositivo con medidas especificas*/
 
 
 @media(min-width:768px){
+
+    /*---------------------------------------Títulos --------------------------------------------------------*/
     .banner-titulo{
         font-size: 40px;
     }
@@ -403,26 +426,97 @@ dispositivo con medidas especificas*/
         font-size:40px;
     }
     .image-profile{
-        width: 20%;
+        width: 18%;
+        margin-top: -3px;
     }
     .image-profile1{
-        width: 21%;
+        width: 20%;
+        margin-top: 8px;
     }
     .image-profile2{
-        width: 22%;
+        width: 18%;
+    }
+    .image-profile3{
+        width: 20%;
     }
 }
 
 @media(min-width:1024px){
+    .contenedor{
+        width: 1000px;
+    }
+
     .banner-titulo{
         font-size: 60px;
     }
     .cursos-titulo{
         font-size: 40px;
     }
-    .section-titulo{
-        font-size:50px;
+
+    .cursos-txt{
+        font-size: 20px;
+    }
+    .cursos-descripcion{
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 
+    .section-titulo{
+        font-size:45px;
+    }
+
+    .info-titulo{
+        font-size: 40px;
+        text-align: center;
+    }
+
+
     /*Ahora vamos a cambiar el menú*/
+    .nav{
+        position: static;
+        width: auto;
+    }
+    .icon-menu{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+
+    .menu-link{
+        background: none;
+    }
+    .select{
+        background: white;
+    }
+
+    .name-title , .name-title2{
+        font-size: 30px;
+    }
+}
+
+@media(min-width:1280px){
+    .contenedor{
+        width: 1200px;
+    }
+    .logo{
+        font-size: 70px;
+    }
+    .banner .contenedor{
+        top: 40%;
+    }
+    .info{
+        margin-top: -180px;
+    }
+    .image-profile1{
+        width: 19%;
+        margin-top: -5px;
+    }
+    .info-columna{
+        padding: 30px;
+    }
 }
