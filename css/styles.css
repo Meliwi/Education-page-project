@@ -107,8 +107,10 @@ con un elemento, pero no necesariamente da click sobre este.*/
     position: relative;
     z-index: -1000;
     margin-bottom: 20px;
+
   }
   
+
 .banner .contenedor {
     position: absolute;
     top: 50%;
@@ -117,7 +119,18 @@ con un elemento, pero no necesariamente da click sobre este.*/
     width: 100%;
     color: #fff;
     text-align: center;
+
   }
+
+
+.image-banner{
+    display: none;
+}
+
+.image-banner-movil{
+    display: block;
+    width:100%;
+}
   
 .banner-txt {
     display: none;
@@ -139,15 +152,28 @@ con un elemento, pero no necesariamente da click sobre este.*/
     -moz-box-shadow: 8px 0px 37px 0px #333;
     box-shadow: 8px 0px 47px 0px rgb(116, 116, 116);
     flex-wrap: wrap;
+    overflow: hidden;
+    transition: all 500ms ease;
 
 }
 
 .info-titulo{
     font-size: 25px;
-    margin-top: 10px;
+    margin-top: 25px;
     border-bottom: white 3px solid;
     width: 50%;
 }
+
+.info-columna img{
+    transition: all 500ms ease;
+}
+
+.info-columna img:hover{
+    transform: scale(1.2);
+}
+
+
+
 /*------------------------------------------ Estilos de About------------------------------------------------------*/
 
 
@@ -173,6 +199,16 @@ con un elemento, pero no necesariamente da click sobre este.*/
     width: 30%;
     margin-right: 10px;
     background-color:#6d7a7f;
+}
+
+.image-profile2{
+    float: right;
+    width: 30%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #6d7a7f;
 }
 
 .opinion-txt1{
@@ -239,4 +275,154 @@ dentro de footer*/
     width: 50px;
     height: 50px;
     line-height: 40px;
+}
+
+
+
+/*--------------------------------------Estilos responsive------------------------------*/
+
+/*Recordemooe los media queries son útiles cuando se desea adapatar la página web a cualquier 
+dispositivo con medidas especificas*/
+
+@media(min-width:480px){
+    .logo{
+        font-size: 40px;
+    }
+    /* ---------------------------------------Esilos para el Banner ----------------------------*/
+    .image-banner{
+        width: 100%;
+        display: block;
+    }
+    .image-banner-movil{
+        width: 100%;
+        display: none;
+    }
+
+    .banner-titulo{
+        font-size: 50px;
+        margin: 5px 0;
+    }
+    /*Esto se hace para que NO se detecte el salto de línea después de 480px*/
+    .banner-titulo br{
+        display: none;
+    }
+    .banner-txt{
+        display: block;
+        font-size: 25px;
+        margin: 5px 0;
+    }
+
+    /* ----------------------------Estilos para la información de las columnas -------------------------------*/
+    .info{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -90px;
+    }
+    .info-columna{
+        width: 35%;
+        
+    }
+
+    /*----------------------------------Estilos para About-----------------------------------------*/
+    .first-column{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15%;
+        
+    }
+    .second-column{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15%;
+    }
+    .about .contenedor{
+        margin-top: -32px;
+        
+    }
+
+    .image-profile{
+        width: 20%;
+        margin-right: -10px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    .image-profile1{
+        width: 20%;
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .image-profile2{
+        width: 20%;
+        margin-right: 0;
+    }
+    .opinion-txt{
+        margin-top: -10px;
+    }
+    .opinion-txt1{
+        margin-top: -10px;
+    }
+
+    /*-----------------------------------------Estilos para cursos------------------------------*/
+    .cursos{
+        display: flex;
+        /*Para que el contenido que ya no entre se vaya hacia abajo*/
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+    .section-titulo{
+        width: 100%;
+    }
+    .cursos-columna{
+        width: 49%;
+    }
+
+    /*----------------------------------------Estilos para el footer-------------------------------------------- */
+    .footer .social [class^="icon-"]{
+        margin: 0 10px;
+    }
+
+}
+
+
+@media(min-width:768px){
+    .banner-titulo{
+        font-size: 40px;
+    }
+    .cursos-titulo{
+        font-size: 35px;
+    }
+    .section-titulo{
+        font-size:40px;
+    }
+    .image-profile{
+        width: 20%;
+    }
+    .image-profile1{
+        width: 21%;
+    }
+    .image-profile2{
+        width: 22%;
+    }
+}
+
+@media(min-width:1024px){
+    .banner-titulo{
+        font-size: 60px;
+    }
+    .cursos-titulo{
+        font-size: 40px;
+    }
+    .section-titulo{
+        font-size:50px;
+    }
+
+    /*Ahora vamos a cambiar el menú*/
 }
