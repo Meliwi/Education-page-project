@@ -190,7 +190,67 @@ con un elemento, pero no necesariamente da click sobre este.*/
     margin-left: 10px;
     margin-top: 10px;
     background-color: #6d7a7f;
+    
 }
+
+.image-profile, .image-profile1, .image-profile2, .image-profile3{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+  .image-profile:hover{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    background: #1F527D;
+  }
+  .image-profile1:hover{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    background: #1F527D; 
+  }
+
+  .image-profile2:hover{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    background: #1F527D; 
+  }
+
+   .image-profile3:hover{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    background: #1F527D; 
+  }
 
 .opinion-txt{
     margin-left: 10px;
@@ -438,6 +498,7 @@ dispositivo con medidas especificas*/
     }
     .image-profile3{
         width: 20%;
+        margin-left: -10px;
     }
 }
 
@@ -515,6 +576,12 @@ dispositivo con medidas especificas*/
     .image-profile1{
         width: 19%;
         margin-top: -5px;
+    }
+
+    .image-profile3{
+        width: 20%;
+        margin-top: 3px;
+        margin-left: -10px;
     }
     .info-columna{
         padding: 30px;
