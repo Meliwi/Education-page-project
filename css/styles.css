@@ -190,6 +190,7 @@ con un elemento, pero no necesariamente da click sobre este.*/
     margin-left: 10px;
     margin-top: 10px;
     background-color: #6d7a7f;
+    padding: 1em;
     
 }
 
@@ -264,6 +265,7 @@ con un elemento, pero no necesariamente da click sobre este.*/
     width: 25%;
     margin-right: 10px;
     background-color:#6d7a7f;
+    padding: 1em;
 }
 
 .image-profile2{
@@ -274,6 +276,7 @@ con un elemento, pero no necesariamente da click sobre este.*/
     margin-left: 10px;
     margin-top: 10px;
     background-color: #6d7a7f;
+    padding: 1em;
 }
 
 .image-profile3{
@@ -281,6 +284,7 @@ con un elemento, pero no necesariamente da click sobre este.*/
     width: 25%;
     margin-right: 10px;
     background-color:#6d7a7f;
+    padding: 1em;
 }
 
 .opinion-txt1{
@@ -486,19 +490,24 @@ dispositivo con medidas especificas*/
         font-size:40px;
     }
     .image-profile{
-        width: 18%;
-        margin-top: -3px;
+        width: 20%;
+        padding: 0.5em;
+        
     }
     .image-profile1{
-        width: 20%;
-        margin-top: 8px;
+        width: 21%;
+        padding: 0.5em;
+        margin-right: 10px;
     }
     .image-profile2{
         width: 18%;
+        padding: 0.5em;
+
     }
     .image-profile3{
         width: 20%;
         margin-left: -10px;
+        padding: 0.5em;
     }
 }
 
@@ -558,6 +567,29 @@ dispositivo con medidas especificas*/
     .name-title , .name-title2{
         font-size: 30px;
     }
+    .image-profile{
+        width: 20%;
+        padding: 1em;
+        margin-top: -5px;
+        margin-left: 15px;
+        margin-left: 15px;
+    }
+    .image-profile1{
+        width: 21%;
+        padding: 1em;
+        margin-right: 10px;
+        margin-top: 7px;
+    }
+    .image-profile2{
+        width: 18%;
+        padding: 1em;
+        
+    }
+    .image-profile3{
+        width: 21%;
+        margin-left: -10px;
+        padding: 1em;
+    }
 }
 
 @media(min-width:1280px){
@@ -573,15 +605,26 @@ dispositivo con medidas especificas*/
     .info{
         margin-top: -180px;
     }
-    .image-profile1{
-        width: 19%;
-        margin-top: -5px;
-    }
-
-    .image-profile3{
+    .image-profile{
         width: 20%;
-        margin-top: 3px;
+        padding: 1.5em;
+    }
+    .image-profile1{
+        width: 21%;
+        padding: 1.5em;
+        margin-right: 10px;
+        margin-top: -3px;
+    }
+    .image-profile2{
+        width: 18%;
+        padding: 1.5em;
+        margin-top: 17px;
+    }
+    .image-profile3{
+        width: 21%;
         margin-left: -10px;
+        padding: 1.5em;
+        margin-top: 8px;
     }
     .info-columna{
         padding: 30px;
